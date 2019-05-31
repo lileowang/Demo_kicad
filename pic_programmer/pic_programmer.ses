@@ -1,0 +1,1381 @@
+
+(session pic_programmer.ses
+  (base_design pic_programmer.dsn)
+  (placement
+    (resolution um 10)
+    (component discret:CP10
+      (place C1 977900 -787400 front 180)
+      (place C2 971550 -901700 front 0)
+    )
+    (component discret:CP8
+      (place C3 1339850 -723900 front 270)
+    )
+    (component "discret:C1-1"
+      (place C4 1168400 -520700 front 0)
+      (place C5 1320800 -495300 front 0)
+      (place C6 1968500 -1149350 front 270)
+      (place C7 1987550 -736600 front 270)
+      (place C9 1455420 -497840 front 0)
+    )
+    (component discret:D5
+      (place D1 876300 -647700 front 270)
+      (place D10 1308100 -571500 front 0)
+    )
+    (component discret:D3
+      (place D2 1041400 -1181100 front 0)
+      (place D3 1041400 -1219200 front 0)
+      (place D4 1041400 -1117600 front 0)
+      (place D5 1041400 -1092200 front 0)
+      (place D6 1041400 -1244600 front 0)
+      (place D7 1041400 -1155700 front 0)
+      (place D11 1428750 -806450 front 180)
+    )
+    (component discret:LEDV
+      (place D8 1549400 -774700 front 0)
+      (place D9 1549400 -876300 front 0)
+      (place D12 1549400 -971550 front 0)
+    )
+    (component connect:DB9FC
+      (place J1 812800 -1155700 front 90)
+    )
+    (component connect:GS2
+      (place JP1 1473200 -977900 back 90)
+    )
+    (component inductors:INDUCTOR_V
+      (place L1 1257300 -647700 front 270)
+    )
+    (component connect:bornier2
+      (place P1 787400 -647700 front 90)
+    )
+    (component discret:TO92
+      (place Q1 1460500 -698500 front 0)
+      (place Q2 1460500 -622300 front 0)
+      (place Q3 1422400 -977900 front 0)
+    )
+    (component discret:R4
+      (place R1 927100 -1181100 front 0)
+      (place R2 927100 -1155700 front 0)
+      (place R3 927100 -1117600 front 0)
+      (place R4 927100 -1092200 front 0)
+      (place R5 927100 -1244600 front 0)
+      (place R6 927100 -1219200 front 0)
+      (place R7 1441450 -546100 front 0)
+      (place R8 1441450 -901700 front 0)
+      (place R9 1441450 -774700 front 0)
+      (place R10 1193800 -482600 front 0)
+      (place R11 1390650 -660400 front 90)
+      (place R12 1352550 -1168400 front 90)
+      (place R13 1403350 -1168400 front 270)
+      (place R14 1441450 -876300 front 0)
+      (place R15 1231900 -787400 front 0)
+      (place R16 1231900 -755650 front 0)
+      (place R17 1562100 -635000 front 270)
+      (place R18 1524000 -635000 front 90)
+      (place R19 1441450 -838200 front 180)
+      (place R20 1397000 -1022350 front 180)
+      (place R21 1530350 -1022350 front 180)
+    )
+    (component discret:RV2X4
+      (place RV1 1225550 -882650 front 180)
+    )
+    (component "dip_sockets:DIP-8__300_ELL"
+      (place U1 1828800 -1130300 front 270)
+      (place U4 1143000 -609600 front 270)
+      (place U6 1828800 -1244600 front 270)
+    )
+    (component "dip_sockets:DIP-14__300_ELL"
+      (place U2 1231900 -1155700 front 0)
+    )
+    (component discret:LM78XX
+      (place U3 990600 -711200 front 90)
+    )
+    (component "dip_sockets:DIP-18__300_ELL"
+      (place U5 2114550 -1181100 front 270)
+    )
+    (component "footprints:1pin-4"
+      (place P101 774700 -1358900 front 0)
+      (place P102 1587500 -1358900 front 0)
+      (place P103 2298700 -1358900 front 0)
+      (place P104 2298700 -444500 front 0)
+      (place P105 1587500 -444500 front 0)
+      (place P106 774700 -444500 front 0)
+    )
+    (component "sockets:40tex-Ell600"
+      (place P3 1828800 -749300 front 270)
+    )
+    (component "dip_sockets:DIP-28__300_ELL"
+      (place P2 2114550 -673100 front 270)
+    )
+    (component "Sockets_MOLEX_KK-System:Socket_MOLEX-KK-RM2-54mm_Lock_3pin_straight"
+      (place P4 2273300 -1181100 front 90)
+    )
+    (component "Sockets_MOLEX_KK-System:Socket_MOLEX-KK-RM3-96mm_Lock_3pin_straight"
+      (place P5 2095500 -939800 front 0)
+    )
+  )
+  (was_is
+  )
+  (routes 
+    (resolution um 10)
+    (parser
+      (host_cad "KiCad's Pcbnew")
+      (host_version "4.0.2-stable")
+    )
+    (library_out 
+      (padstack "Via[0-1]_1600:600_um"
+        (shape
+          (circle Composant 16000 0 0)
+        )
+        (shape
+          (circle Cuivre 16000 0 0)
+        )
+        (attach off)
+      )
+    )
+    (network_out 
+      (net /CTS
+        (wire
+          (path Cuivre 5000
+            800100 -1141730
+            839470 -1141730
+            844550 -1136650
+            1123950 -1136650
+            1130300 -1143000
+            1219200 -1143000
+            1231900 -1130300
+            1231900 -1117600
+          )
+          (type protect)
+        )
+      )
+      (net /DTR
+        (wire
+          (path Cuivre 5000
+            876300 -1117600
+            876300 -1092200
+          )
+          (type protect)
+        )
+        (wire
+          (path Cuivre 5000
+            825500 -1127760
+            825500 -1123950
+            831850 -1117600
+            876300 -1117600
+          )
+          (type protect)
+        )
+      )
+      (net "/PC-CLOCK-OUT"
+        (wire
+          (path Cuivre 5000
+            800100 -1168400
+            781050 -1168400
+            774700 -1174750
+            774700 -1206500
+            800100 -1231900
+            850900 -1231900
+            863600 -1244600
+            876300 -1244600
+          )
+          (type protect)
+        )
+        (wire
+          (path Cuivre 5000
+            876300 -1244600
+            876300 -1219200
+          )
+          (type protect)
+        )
+      )
+      (net /TXD
+        (wire
+          (path Cuivre 5000
+            876300 -1155700
+            825500 -1155700
+          )
+          (type protect)
+        )
+        (wire
+          (path Cuivre 5000
+            876300 -1181100
+            876300 -1155700
+          )
+          (type protect)
+        )
+      )
+      (net "Net-(C2-Pad1)"
+        (wire
+          (path Cuivre 5000
+            844550 -901700
+            844550 -895350
+            825500 -876300
+            825500 -762000
+            876300 -711200
+          )
+          (type protect)
+        )
+        (wire
+          (path Cuivre 5000
+            876300 -711200
+            965200 -711200
+          )
+          (type protect)
+        )
+      )
+      (net "Net-(C4-Pad1)"
+        (wire
+          (path Cuivre 5000
+            1104900 -571500
+            1104900 -533400
+            1117600 -520700
+            1143000 -520700
+          )
+          (type protect)
+        )
+        (wire
+          (path Cuivre 5000
+            1143000 -482600
+            1143000 -520700
+          )
+          (type protect)
+        )
+      )
+      (net "Net-(C5-Pad1)"
+        (wire
+          (path Cuivre 5000
+            1244600 -482600
+            1282700 -482600
+            1295400 -495300
+          )
+          (type protect)
+        )
+      )
+      (net "Net-(C9-Pad2)"
+        (wire
+          (path Cuivre 5000
+            1480820 -497840
+            1488440 -497840
+            1492250 -501650
+            1492250 -546100
+          )
+          (type protect)
+        )
+        (wire
+          (path Cuivre 5000
+            1455420 -497840
+            1480820 -497840
+          )
+          (type protect)
+        )
+        (wire
+          (path Cuivre 5000
+            1447800 -609600
+            1473200 -635000
+            1485900 -635000
+            1498600 -622300
+            1498600 -596900
+            1492250 -590550
+            1492250 -546100
+          )
+          (type protect)
+        )
+        (wire
+          (path Cuivre 5000
+            1447800 -609600
+            1390650 -609600
+          )
+          (type protect)
+        )
+      )
+      (net "Net-(D1-Pad1)"
+        (wire
+          (path Cuivre 5000
+            787400 -622300
+            838200 -622300
+            876300 -584200
+          )
+          (type protect)
+        )
+      )
+      (net "Net-(D10-Pad1)"
+        (wire
+          (path Cuivre 5000
+            1244600 -571500
+            1244600 -609600
+            1257300 -622300
+          )
+          (type protect)
+        )
+        (wire
+          (path Cuivre 5000
+            1181100 -571500
+            1244600 -571500
+          )
+          (type protect)
+        )
+      )
+      (net "Net-(D11-Pad1)"
+        (wire
+          (path Cuivre 5000
+            1466850 -806450
+            1485900 -806450
+            1492250 -812800
+            1492250 -838200
+          )
+          (type protect)
+        )
+      )
+      (net "Net-(D11-Pad2)"
+        (wire
+          (path Cuivre 5000
+            1447800 -711200
+            1390650 -711200
+          )
+          (type protect)
+        )
+        (wire
+          (path Cuivre 5000
+            1390650 -711200
+            1416050 -736600
+            1416050 -781050
+            1390650 -806450
+          )
+          (type protect)
+        )
+      )
+      (net "Net-(D12-Pad1)"
+        (wire
+          (path Cuivre 5000
+            1536700 -971550
+            1536700 -977900
+            1581150 -1022350
+          )
+          (type protect)
+        )
+      )
+      (net "Net-(D2-Pad1)"
+        (wire
+          (path Cuivre 5000
+            977900 -1181100
+            958850 -1181100
+            946150 -1193800
+            946150 -1244600
+            971550 -1270000
+            1009650 -1270000
+            1060450 -1219200
+            1079500 -1219200
+          )
+          (type protect)
+        )
+        (wire
+          (path Cuivre 5000
+            1079500 -1219200
+            1162050 -1219200
+            1181100 -1200150
+            1181100 -1193800
+          )
+          (type protect)
+        )
+        (wire
+          (path Cuivre 5000
+            1003300 -1181100
+            977900 -1181100
+          )
+          (type protect)
+        )
+      )
+      (net "Net-(D4-Pad1)"
+        (wire
+          (path Cuivre 5000
+            1079500 -1092200
+            1068070 -1092200
+            1042670 -1117600
+            1003300 -1117600
+          )
+          (type protect)
+        )
+        (wire
+          (path Composant 5000
+            1079500 -1092200
+            1111250 -1092200
+            1117600 -1098550
+            1117600 -1193800
+            1155700 -1231900
+            1231900 -1231900
+            1257300 -1206500
+            1257300 -1193800
+          )
+          (type protect)
+        )
+        (wire
+          (path Cuivre 5000
+            1003300 -1117600
+            977900 -1117600
+          )
+          (type protect)
+        )
+      )
+      (net "Net-(D6-Pad1)"
+        (wire
+          (path Cuivre 5000
+            1079500 -1155700
+            1060450 -1155700
+            1016000 -1200150
+            965200 -1200150
+            958850 -1206500
+            958850 -1225550
+            977900 -1244600
+          )
+          (type protect)
+        )
+        (wire
+          (path Cuivre 5000
+            1079500 -1155700
+            1257300 -1155700
+            1282700 -1130300
+            1282700 -1117600
+          )
+          (type protect)
+        )
+        (wire
+          (path Cuivre 5000
+            1003300 -1244600
+            977900 -1244600
+          )
+          (type protect)
+        )
+      )
+      (net "Net-(D8-Pad1)"
+        (wire
+          (path Cuivre 5000
+            1536700 -774700
+            1492250 -774700
+          )
+          (type protect)
+        )
+      )
+      (net "Net-(D9-Pad1)"
+        (wire
+          (path Cuivre 5000
+            1536700 -876300
+            1492250 -876300
+          )
+          (type protect)
+        )
+      )
+      (net "Net-(Q1-Pad2)"
+        (wire
+          (path Cuivre 5000
+            1492250 -901700
+            1466850 -901700
+            1447800 -882650
+            1447800 -755650
+            1473200 -730250
+            1473200 -711200
+            1447800 -685800
+          )
+          (type protect)
+        )
+      )
+      (net "Net-(Q2-Pad3)"
+        (wire
+          (path Composant 5000
+            1390650 -774700
+            1377950 -762000
+            1377950 -749300
+            1390650 -736600
+            1460500 -736600
+            1479550 -717550
+            1504950 -717550
+            1524000 -698500
+            1524000 -685800
+          )
+          (type protect)
+        )
+        (wire
+          (path Cuivre 5000
+            1447800 -635000
+            1454150 -635000
+            1473200 -654050
+            1492250 -654050
+            1524000 -685800
+          )
+          (type protect)
+        )
+        (wire
+          (path Cuivre 5000
+            1562100 -584200
+            1562100 -615950
+            1524000 -654050
+            1524000 -685800
+          )
+          (type protect)
+        )
+      )
+      (net "Net-(Q3-Pad2)"
+        (wire
+          (path Cuivre 5000
+            1390650 -838200
+            1397000 -838200
+            1409700 -850900
+            1409700 -965200
+          )
+          (type protect)
+        )
+        (wire
+          (path Cuivre 5000
+            1409700 -965200
+            1352550 -965200
+            1346200 -971550
+            1346200 -1022350
+          )
+          (type protect)
+        )
+      )
+      (net "Net-(R12-Pad1)"
+        (wire
+          (path Cuivre 5000
+            1282700 -1193800
+            1282700 -1206500
+            1295400 -1219200
+            1352550 -1219200
+          )
+          (type protect)
+        )
+      )
+      (net "Net-(R13-Pad1)"
+        (wire
+          (path Cuivre 5000
+            1308100 -1117600
+            1308100 -1096260
+            1326900 -1077470
+            1384050 -1077470
+            1403350 -1096770
+            1403350 -1117600
+          )
+          (type protect)
+        )
+      )
+      (net "Net-(R15-Pad1)"
+        (wire
+          (path Cuivre 5000
+            1181100 -787400
+            1181100 -800100
+            1244600 -863600
+            1244600 -895350
+            1257300 -908050
+            1276350 -908050
+          )
+          (type protect)
+        )
+      )
+      (net "Net-(R16-Pad1)"
+        (wire
+          (path Cuivre 5000
+            1181100 -755650
+            1200150 -755650
+            1206500 -762000
+            1206500 -793750
+            1270000 -857250
+            1276350 -857250
+          )
+          (type protect)
+        )
+      )
+      (net "Net-(R8-Pad1)"
+        (wire
+          (path Composant 5000
+            1390650 -901700
+            1270000 -1022350
+            1149350 -1022350
+            1130300 -1041400
+            1130300 -1143000
+            1149350 -1162050
+            1200150 -1162050
+            1206500 -1168400
+            1206500 -1193800
+          )
+          (type protect)
+        )
+      )
+      (net "Net-(RV1-Pad2)"
+        (wire
+          (path Cuivre 5000
+            1104900 -596900
+            1123950 -596900
+            1136650 -609600
+            1136650 -806450
+            1174750 -844550
+            1174750 -882650
+          )
+          (type protect)
+        )
+      )
+      (net VCC
+        (wire
+          (path Cuivre 8000
+            1447800 -979170
+            1447800 -977900
+          )
+          (type protect)
+        )
+        (wire
+          (path Cuivre 8000
+            1447800 -1022350
+            1447800 -979170
+          )
+          (type protect)
+        )
+        (wire
+          (path Cuivre 8000
+            1447800 -977900
+            1447800 -965200
+            1435100 -965200
+          )
+          (type protect)
+        )
+        (wire
+          (path Cuivre 8000
+            1447800 -977900
+            1447800 -979170
+          )
+          (type protect)
+        )
+        (wire
+          (path Cuivre 8000
+            1466850 -977900
+            1447800 -977900
+          )
+          (type protect)
+        )
+        (wire
+          (path Cuivre 8000
+            1384300 -977900
+            1371600 -990600
+            1371600 -1035050
+            1358900 -1047750
+            1155700 -1047750
+          )
+          (type protect)
+        )
+        (wire
+          (path Cuivre 5000
+            1422400 -977900
+            1384300 -977900
+          )
+          (type protect)
+        )
+        (wire
+          (path Cuivre 8000
+            1435100 -965200
+            1422400 -977900
+          )
+          (type protect)
+        )
+        (wire
+          (path Composant 8000
+            1092200 -1181100
+            1104900 -1193800
+            1104900 -1238250
+            1098550 -1244600
+            1079500 -1244600
+          )
+          (type protect)
+        )
+        (wire
+          (path Composant 8000
+            1079500 -1117600
+            1098550 -1117600
+            1104900 -1123950
+            1104900 -1168400
+            1092200 -1181100
+          )
+          (type protect)
+        )
+        (wire
+          (path Composant 8000
+            1092200 -1181100
+            1079500 -1181100
+          )
+          (type protect)
+        )
+        (wire
+          (path Cuivre 8000
+            1257300 -673100
+            1238250 -673100
+          )
+          (type protect)
+        )
+        (wire
+          (path Cuivre 8000
+            1104900 -787400
+            1104900 -736600
+            1079500 -711200
+            1016000 -711200
+          )
+          (type protect)
+        )
+        (wire
+          (path Cuivre 8000
+            1104900 -787400
+            1104900 -844550
+            1143000 -882650
+            1143000 -933450
+          )
+          (type protect)
+        )
+        (wire
+          (path Cuivre 8000
+            1143000 -933450
+            1308100 -933450
+            1346200 -895350
+            1346200 -876300
+          )
+          (type protect)
+        )
+        (wire
+          (path Cuivre 8000
+            1346200 -876300
+            1339850 -876300
+            1263650 -800100
+            1244600 -800100
+            1238250 -793750
+            1238250 -673100
+          )
+          (type protect)
+        )
+        (wire
+          (path Cuivre 8000
+            1155700 -1117600
+            1155700 -1047750
+          )
+          (type protect)
+        )
+        (wire
+          (path Cuivre 8000
+            1143000 -933450
+            1143000 -971550
+            1155700 -984250
+            1155700 -1047750
+          )
+          (type protect)
+        )
+        (wire
+          (path Cuivre 8000
+            1390650 -876300
+            1346200 -876300
+          )
+          (type protect)
+        )
+        (wire
+          (path Cuivre 8000
+            1079500 -1117600
+            1155700 -1117600
+          )
+          (type protect)
+        )
+        (wire
+          (path Cuivre 8000
+            1238250 -673100
+            1231900 -673100
+            1206500 -647700
+            1181100 -647700
+          )
+          (type protect)
+        )
+      )
+      (net VPP
+        (wire
+          (path Cuivre 5000
+            1390650 -546100
+            1390650 -511810
+            1404620 -497840
+            1430020 -497840
+          )
+          (type protect)
+        )
+        (wire
+          (path Cuivre 5000
+            1339850 -622300
+            1339850 -685800
+            1282700 -742950
+            1282700 -755650
+          )
+          (type protect)
+        )
+        (wire
+          (path Cuivre 5000
+            1339850 -622300
+            1339850 -596900
+            1365250 -571500
+            1371600 -571500
+          )
+          (type protect)
+        )
+        (wire
+          (path Cuivre 5000
+            1371600 -571500
+            1435100 -571500
+            1473200 -609600
+          )
+          (type protect)
+        )
+        (wire
+          (path Cuivre 5000
+            1371600 -571500
+            1371600 -565150
+            1390650 -546100
+          )
+          (type protect)
+        )
+      )
+      (net /pic_sockets/VCC_PIC
+        (wire
+          (path Cuivre 5000
+            1790700 -1206500
+            1663700 -1206500
+            1479550 -1022350
+          )
+          (type protect)
+        )
+        (wire
+          (path Cuivre 5000
+            1409700 -990600
+            1409700 -1041400
+            1422400 -1054100
+            1447800 -1054100
+            1479550 -1022350
+          )
+          (type protect)
+        )
+        (wire
+          (path Cuivre 5000
+            1752600 -762000
+            1803400 -762000
+            1854200 -711200
+            1905000 -711200
+          )
+          (type protect)
+        )
+        (wire
+          (path Cuivre 5000
+            2101850 -1181100
+            2152650 -1181100
+          )
+          (type protect)
+        )
+        (wire
+          (path Cuivre 5000
+            1790700 -1206500
+            1809750 -1206500
+            1822450 -1219200
+            1847000 -1219200
+          )
+          (type protect)
+        )
+        (wire
+          (path Cuivre 5000
+            1892300 -1219200
+            1905000 -1219200
+            1930400 -1193800
+            1981200 -1193800
+          )
+          (type protect)
+        )
+        (wire
+          (path Cuivre 4000
+            1847000 -1219200
+            1892300 -1219200
+          )
+          (type protect)
+        )
+        (wire
+          (path Cuivre 5000
+            2101850 -1193800
+            2101850 -1181100
+          )
+          (type protect)
+        )
+        (wire
+          (path Cuivre 4000
+            1981200 -1193800
+            2101850 -1193800
+          )
+          (type protect)
+        )
+        (wire
+          (path Cuivre 5000
+            2032000 -1123950
+            2032000 -1155700
+            2044700 -1168400
+          )
+          (type protect)
+        )
+        (wire
+          (path Cuivre 5000
+            2101850 -1181100
+            2101850 -1168400
+          )
+          (type protect)
+        )
+        (wire
+          (path Cuivre 4000
+            2044700 -1168400
+            2101850 -1168400
+          )
+          (type protect)
+        )
+        (wire
+          (path Cuivre 5000
+            2101850 -647700
+            2108200 -647700
+            2127250 -666750
+            2127250 -704850
+            2133600 -711200
+            2152650 -711200
+          )
+          (type protect)
+        )
+        (wire
+          (path Cuivre 5000
+            2032000 -1123950
+            2032000 -1054100
+            2063750 -1022350
+            2190750 -1022350
+            2203450 -1009650
+            2203450 -717550
+            2197100 -711200
+            2152650 -711200
+          )
+          (type protect)
+        )
+        (wire
+          (path Cuivre 5000
+            1905000 -711200
+            1987550 -711200
+          )
+          (type protect)
+        )
+        (wire
+          (path Cuivre 5000
+            1987550 -711200
+            1987550 -679450
+            2019300 -647700
+            2057400 -647700
+          )
+          (type protect)
+        )
+        (wire
+          (path Cuivre 4000
+            2057400 -647700
+            2101850 -647700
+          )
+          (type protect)
+        )
+        (wire
+          (path Cuivre 5000
+            1866900 -1092200
+            1866900 -1060450
+            1879600 -1047750
+            1949450 -1047750
+            1968500 -1066800
+            1968500 -1123950
+          )
+          (type protect)
+        )
+        (wire
+          (path Composant 5000
+            1866900 -1092200
+            1866900 -1060450
+            1854200 -1047750
+            1543050 -1047750
+            1517650 -1022350
+            1479550 -1022350
+          )
+          (type protect)
+        )
+        (wire
+          (path Cuivre 5000
+            1479550 -977900
+            1479550 -1022350
+          )
+          (type protect)
+        )
+        (wire
+          (path Cuivre 5000
+            1968500 -1123950
+            2032000 -1123950
+          )
+          (type protect)
+        )
+      )
+      (net "/pic_sockets/VPP-MCLR"
+        (wire
+          (path Cuivre 5000
+            1752600 -508000
+            1568450 -508000
+            1524000 -552450
+            1524000 -584200
+          )
+          (type protect)
+        )
+        (wire
+          (path Cuivre 5000
+            2209800 -1041400
+            2209800 -1308100
+            2184400 -1333500
+            1962150 -1333500
+            1955800 -1327150
+            1809750 -1327150
+            1790700 -1308100
+            1790700 -1282700
+          )
+          (type protect)
+        )
+        (wire
+          (path Cuivre 5000
+            2209800 -1041400
+            2216150 -1041400
+            2222500 -1035050
+            2222500 -488950
+            2197100 -463550
+            2076450 -463550
+          )
+          (type protect)
+        )
+        (wire
+          (path Cuivre 5000
+            1752600 -508000
+            1752600 -476250
+            1765300 -463550
+            2076450 -463550
+          )
+          (type protect)
+        )
+        (wire
+          (path Cuivre 5000
+            2076450 -1155700
+            2051050 -1155700
+            2044700 -1149350
+            2044700 -1066800
+            2070100 -1041400
+            2209800 -1041400
+          )
+          (type protect)
+        )
+        (wire
+          (path Cuivre 5000
+            2076450 -508000
+            2076450 -463550
+          )
+          (type protect)
+        )
+      )
+      (net "/pic_sockets/CLOCK-RB6"
+        (via "Via[0-1]_1600:600_um" 1898650 -1104900
+          (type protect)
+        )
+        (via "Via[0-1]_1600:600_um" 1968500 -546100
+          (type protect)
+        )
+        (via "Via[0-1]_1600:600_um" 1924050 -1257300
+          (type protect)
+        )
+        (wire
+          (path Cuivre 5000
+            1898650 -1104900
+            1898650 -1136650
+            1892300 -1143000
+            1866900 -1143000
+          )
+          (type protect)
+        )
+        (wire
+          (path Cuivre 5000
+            1924050 -1257300
+            1981200 -1314450
+            2165350 -1314450
+            2178050 -1301750
+            2178050 -1238250
+            2171700 -1231900
+            2152650 -1231900
+          )
+          (type protect)
+        )
+        (wire
+          (path Cuivre 4318
+            1771650 -1270000
+            1809750 -1270000
+          )
+          (type protect)
+        )
+        (wire
+          (path Cuivre 5000
+            1866900 -1257300
+            1822450 -1257300
+            1809750 -1270000
+          )
+          (type protect)
+        )
+        (wire
+          (path Composant 5000
+            1898650 -1104900
+            1930400 -1073150
+            1930400 -755650
+            1962150 -723900
+            1962150 -679450
+            1968500 -673100
+            1968500 -546100
+          )
+          (type protect)
+        )
+        (wire
+          (path Composant 5000
+            1898650 -1104900
+            1898650 -1231900
+            1924050 -1257300
+          )
+          (type protect)
+        )
+        (wire
+          (path Cuivre 5000
+            1905000 -533400
+            1955800 -533400
+            1968500 -546100
+          )
+          (type protect)
+        )
+        (wire
+          (path Cuivre 5000
+            1403350 -1219200
+            1403350 -1225550
+            1447800 -1270000
+            1771650 -1270000
+          )
+          (type protect)
+        )
+        (wire
+          (path Cuivre 5000
+            1866900 -1257300
+            1924050 -1257300
+          )
+          (type protect)
+        )
+        (wire
+          (path Cuivre 5000
+            2089150 -546100
+            2101850 -546100
+            2114550 -533400
+            2152650 -533400
+          )
+          (type protect)
+        )
+        (wire
+          (path Cuivre 5000
+            1968500 -546100
+            2057400 -546100
+          )
+          (type protect)
+        )
+        (wire
+          (path Cuivre 4318
+            2057400 -546100
+            2089150 -546100
+          )
+          (type protect)
+        )
+      )
+      (net "/pic_sockets/DATA-RB7"
+        (via "Via[0-1]_1600:600_um" 1924050 -1143000
+          (type protect)
+        )
+        (via "Via[0-1]_1600:600_um" 2000250 -520700
+          (type protect)
+        )
+        (via "Via[0-1]_1600:600_um" 1924050 -1231900
+          (type protect)
+        )
+        (wire
+          (path Cuivre 5000
+            1924050 -1143000
+            1917700 -1143000
+            1892300 -1168400
+            1866900 -1168400
+          )
+          (type protect)
+        )
+        (wire
+          (path Cuivre 5000
+            1352550 -1117600
+            1377950 -1143000
+            1390650 -1143000
+            1498600 -1250950
+            1739900 -1250950
+            1746250 -1244600
+          )
+          (type protect)
+        )
+        (wire
+          (path Composant 5000
+            2000250 -520700
+            2000250 -571500
+            2012950 -584200
+            2012950 -850900
+            1949450 -914400
+            1949450 -1136650
+            1943100 -1143000
+            1924050 -1143000
+          )
+          (type protect)
+        )
+        (wire
+          (path Cuivre 5000
+            2152650 -508000
+            2108200 -508000
+            2095500 -520700
+          )
+          (type protect)
+        )
+        (wire
+          (path Cuivre 5000
+            1905000 -508000
+            1987550 -508000
+            2000250 -520700
+          )
+          (type protect)
+        )
+        (wire
+          (path Cuivre 5000
+            1816100 -1244600
+            1828800 -1231900
+            1866900 -1231900
+          )
+          (type protect)
+        )
+        (wire
+          (path Cuivre 4318
+            2057400 -520700
+            2095500 -520700
+          )
+          (type protect)
+        )
+        (wire
+          (path Composant 5000
+            1206500 -1117600
+            1206500 -1098550
+            1212850 -1092200
+            1327150 -1092200
+            1352550 -1117600
+          )
+          (type protect)
+        )
+        (wire
+          (path Cuivre 5000
+            1924050 -1231900
+            2019300 -1231900
+            2032000 -1219200
+          )
+          (type protect)
+        )
+        (wire
+          (path Cuivre 4318
+            1746250 -1244600
+            1816100 -1244600
+          )
+          (type protect)
+        )
+        (wire
+          (path Cuivre 5000
+            1866900 -1231900
+            1924050 -1231900
+          )
+          (type protect)
+        )
+        (wire
+          (path Cuivre 5000
+            2139950 -1219200
+            2152650 -1206500
+          )
+          (type protect)
+        )
+        (wire
+          (path Cuivre 4000
+            2032000 -1219200
+            2139950 -1219200
+          )
+          (type protect)
+        )
+        (wire
+          (path Cuivre 5000
+            2000250 -520700
+            2057400 -520700
+          )
+          (type protect)
+        )
+        (wire
+          (path Composant 5000
+            1924050 -1143000
+            1924050 -1231900
+          )
+          (type protect)
+        )
+      )
+      (net /pic_sockets/a3
+        (wire
+          (path Composant 5000
+            2273300 -1206500
+            2228850 -1206500
+            2152650 -1130300
+          )
+        )
+        (wire
+          (path Composant 5000
+            2055901 -939800
+            2055901 -1029920
+            2152650 -1126669
+            2152650 -1130300
+          )
+        )
+      )
+      (net /pic_sockets/a2
+        (wire
+          (path Composant 5000
+            2095500 -939800
+            2095500 -1047750
+            2152650 -1104900
+          )
+        )
+        (wire
+          (path Composant 5000
+            2273300 -1181100
+            2228850 -1181100
+            2152650 -1104900
+          )
+        )
+      )
+      (net /pic_sockets/a1
+        (wire
+          (path Composant 5000
+            2273300 -1155700
+            2228850 -1155700
+            2152650 -1079500
+          )
+        )
+        (wire
+          (path Composant 5000
+            2152650 -1079500
+            2152650 -1066623
+          )
+        )
+        (wire
+          (path Composant 5000
+            2135099 -939800
+            2135099 -1049072
+            2152650 -1066623
+          )
+        )
+      )
+    )
+  )
+)
