@@ -291,10 +291,7 @@ VPP-MCLR
 NoConn ~ 2950 4150
 NoConn ~ 4500 5200
 NoConn ~ 4500 5050
-NoConn ~ 4500 4300
 NoConn ~ 4500 4450
-NoConn ~ 4500 4150
-NoConn ~ 4500 4000
 NoConn ~ 2950 5200
 NoConn ~ 2950 5050
 NoConn ~ 2950 4900
@@ -460,10 +457,10 @@ F 3 "" H 3300 6500 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L CONN_01X03 P?
+L CONN_01X03 P5
 U 1 1 5CF168BA
 P 5850 5200
-F 0 "P?" H 5850 5400 50  0000 C CNN
+F 0 "P5" H 5850 5400 50  0000 C CNN
 F 1 "CONN_01X03" V 5950 5200 50  0000 C CNN
 F 2 "" H 5850 5200 50  0000 C CNN
 F 3 "" H 5850 5200 50  0000 C CNN
@@ -471,14 +468,80 @@ F 3 "" H 5850 5200 50  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L CONN_01X03 P?
+L CONN_01X03 P4
 U 1 1 5CF168F5
 P 5850 4350
-F 0 "P?" H 5850 4550 50  0000 C CNN
+F 0 "P4" H 5850 4550 50  0000 C CNN
 F 1 "CONN_01X03" V 5950 4350 50  0000 C CNN
 F 2 "" H 5850 4350 50  0000 C CNN
 F 3 "" H 5850 4350 50  0000 C CNN
 	1    5850 4350
 	-1   0    0    1   
 $EndComp
+Wire Wire Line
+	4500 4000 4650 4000
+Wire Wire Line
+	4500 4150 4650 4150
+Wire Wire Line
+	4500 4300 4650 4300
+Wire Wire Line
+	6050 4250 6200 4250
+Wire Wire Line
+	6050 4350 6200 4350
+Wire Wire Line
+	6050 4450 6200 4450
+Wire Wire Line
+	6050 5100 6200 5100
+Wire Wire Line
+	6050 5200 6200 5200
+Wire Wire Line
+	6050 5300 6200 5300
+Entry Bus Bus
+	4650 4000 4750 3900
+Entry Bus Bus
+	4650 4150 4750 4050
+Entry Bus Bus
+	4650 4300 4750 4200
+Entry Bus Bus
+	6200 4250 6300 4150
+Entry Bus Bus
+	6200 4350 6300 4250
+Entry Bus Bus
+	6200 4450 6300 4350
+Entry Bus Bus
+	6200 5100 6300 5000
+Entry Bus Bus
+	6200 5200 6300 5100
+Entry Bus Bus
+	6200 5300 6300 5200
+Wire Bus Line
+	4750 3450 4750 4200
+Wire Bus Line
+	4750 3450 5100 3450
+Wire Bus Line
+	6300 3600 6300 5200
+Wire Bus Line
+	6300 3600 6700 3600
+Text Label 4550 4000 0    60   ~ 0
+a1
+Text Label 4550 4150 0    60   ~ 0
+a2
+Text Label 4550 4300 0    60   ~ 0
+a3
+Text Label 6100 4250 0    60   ~ 0
+a1
+Text Label 6100 4350 0    60   ~ 0
+a2
+Text Label 6100 4450 0    60   ~ 0
+a3
+Text Label 6100 5100 0    60   ~ 0
+a1
+Text Label 6100 5200 0    60   ~ 0
+a2
+Text Label 6100 5300 0    60   ~ 0
+a3
+Text Label 4800 3450 0    60   ~ 0
+a[1..3]
+Text Label 6350 3600 0    60   ~ 0
+a[1..3]
 $EndSCHEMATC
