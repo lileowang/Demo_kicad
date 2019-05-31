@@ -1,4 +1,4 @@
-update=17/05/2015 17:14:38
+update=2019-05-31 10:46:10 AM
 last_client=kicad
 [common]
 NetDir=
@@ -35,3 +35,4 @@ LibDir=
 [eeschema/libraries]
 LibName1=libs/pic_programmer_schlib
 LibName2=power
+LibName3=conn
